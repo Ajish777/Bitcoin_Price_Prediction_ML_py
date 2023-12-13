@@ -27,9 +27,6 @@ warnings.filterwarnings('ignore')
 ```
 
 # Importing Dataset
-The dataset used here to perform the analysis and build a predictive model is Bitcoin Price data. I have use OHLC(‘Open’, ‘High’, ‘Low’, ‘Close’) data from 17th July 2014 to 29th December 2022 which is for 8 years for the Bitcoin price.
-
-you can find and use datasets from kaggle.
 
 ```
 df = pd.read_csv('bitcoin.csv')
